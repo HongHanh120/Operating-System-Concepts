@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e1a655e-bffb-4415-847c-4dd745186add" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="178" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZkEH0A2ppjHM7M4edggeGugn2A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunManager" selected="Application.diningPhilosophers">
+    <configuration name="diningPhilosophers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diningPhilosophers" />
+      <module name="Dining-Philosophers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="Dining-Philosophers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.diningPhilosophers" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e1a655e-bffb-4415-847c-4dd745186add" name="Default Changelist" comment="" />
+      <created>1585374600006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585374600006</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585390685569">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1585390685569" />
+    <state x="401" y="201" width="620" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585374909302">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="401" y="201" width="620" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1585374909302" />
+    <state x="625" y="207" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585380656702">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="625" y="207" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1585380656702" />
+    <state width="1253" height="497" key="GridCell.Tab.0.bottom" timestamp="1585398536597">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="497" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585398536597" />
+    <state width="1253" height="497" key="GridCell.Tab.0.center" timestamp="1585398536583">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="497" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585398536583" />
+    <state width="1253" height="497" key="GridCell.Tab.0.left" timestamp="1585398536576">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="497" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585398536576" />
+    <state width="1253" height="497" key="GridCell.Tab.0.right" timestamp="1585398536595">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="497" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585398536595" />
+    <state x="392" y="38" width="900" height="730" key="SettingsEditor" timestamp="1585388356002">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="392" y="38" width="900" height="730" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1585388356002" />
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585395960534">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1585395960534" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Dining_Philosophers$diningPhilosophers.ic" NAME="diningPhilosophers Coverage Results" MODIFIED="1585388241717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
