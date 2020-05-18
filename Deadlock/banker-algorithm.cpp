@@ -37,10 +37,8 @@ bool isSafe(int processes[], int available[], int maxm[][R], int allot[][R]){
                     for(int k = 0; k < R; k++){
                         work[k] += allot[p][k];
                     }
-                    // cout << count + "\n";
                     safeSequence[count] = p;
                     count++;
-                    cout << count + "\n";
                     finish[p] = 1;
                     found = true;
                 }
@@ -55,6 +53,7 @@ bool isSafe(int processes[], int available[], int maxm[][R], int allot[][R]){
     for(int i = 0; i < P; i++){
         cout << safeSequence[i] << " ";
     }
+    cout << "\n";
     return true;
 }
 

@@ -46,9 +46,9 @@ bool isSafe(int processes[], int allocation[][R], int request[][R], int availabl
         }
         if(found == false){
             cout << "System is not in safe state.\n";
-            for(int t = 0; t < P; t++){
-                if(finish[t] == false){
-                    cout << "Process " << t << " is deadlock!\n";
+            for(int i = 0; i < P; i++){
+                if(finish[i] == false){
+                    cout << "Process " << i << " is deadlock!\n";
                 }
             }
             return false;
