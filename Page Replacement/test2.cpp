@@ -11,10 +11,13 @@ int main (){
     int frames[capacity];
     int position = 0;
     bool flag = true;
+    int timestamp[capacity];
+    bool found = false;
     // int count = 0;
 
     for (int i = 0; i < capacity; i++){
         frames[i] = -1;
+        timestamp[i] = 0;
     }
 
     for (int i = 0; i < n; i++){
@@ -29,31 +32,61 @@ int main (){
         }
         
         if(flag){
+            found = false;
             page_faults++;
             if(position < capacity){
                 frames[position] = pages[i];
+                timestamp[position] = 0;
                 position++;
                 // break; 
             }
             else {
-                position = position % capacity;
-                if(rf_bit[frames[position]] == 0)
-                    frames[position] = pages[i];
-                else {
-                    while(rf_bit[frames[position]] == 1){
-                        rf_bit[frames[position]] = 0;
-                        position = (position + 1) % capacity;
+                int temp;
+                for (int j = 0; j < capacity; j++){
+                    // cout << timestamp[j] << "  ";
+                    if (timestamp[j] > capacity){
+                        found = true;
+                        temp = j;
+                        // break;
                     }
-                    frames[position] = pages[i];
                 }
-                position = (position + 1) % capacity;
+                if(found){
+                    frames[temp] = pages[i];
+                    timestamp[temp] = 0;
+                }
+                else {
+                    position = position % capacity;
+                    if(rf_bit[frames[position]] == 0){
+                        frames[position] = pages[i];
+                        timestamp[position] = 0;
+                    }
+                    else {
+                        while(rf_bit[frames[position]] == 1){
+                            rf_bit[frames[position]] = 0;
+                            position = (position + 1) % capacity;
+                        }
+                        frames[position] = pages[i];
+                        timestamp[position] = 0;
+                    }
+                    position = (position + 1) % capacity;
+                }
                 
             }
             for (int j = 0; j < capacity; j++){
                 if(frames[j] != -1)
                     cout << frames[j] << "   ";
             }
-            cout << position;
+            
+            // cout << position;
+        }
+        // for (int j = 0; j < capacity; j++){
+        //         if(frames[j] != -1)
+        //             cout << rf_bit[frames[j]] << "   ";
+        //     }
+        for (int j = 0; j < capacity; j++){
+            if(rf_bit[frames[j]] != 1 && frames[j] != -1)
+                timestamp[j]++;
+            // cout << timestamp[j] << "   ";
         }
         cout << "\n";
     }
